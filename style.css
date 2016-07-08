@@ -1,0 +1,153 @@
+ul {
+	list-style : none;
+}
+a {
+	text-decoration : none;
+}
+body {
+	font-family : "Times New Roman", Times, Garamond, Georgia;
+	font-size : 15px;
+	color : #333333;
+}
+.wrapper {
+	background-image : url(img/header.jpg);
+	width : 1200px;
+	height : 800px;
+	margin : 0 auto;
+}
+header {
+	height : 146px;
+}
+header img {
+	float : left;
+	margin : 30px 0 0 132px;
+}
+header nav {
+	margin-right : 120px;
+}
+header nav li {
+	float : right;
+	color : #dfdede;
+	margin : 45px 25px 0 0;
+}
+.wrapper h1 {
+	margin : 376px 611px 0 140px;
+	font-family : "Times New Roman", Times, Garamond, Georgia;
+	font-size : 51px;
+	color : #ffffff;
+}
+.wrapper p {
+	margin : 20px 531px 0 140px;
+	font-family : "Times New Roman", Times, Garamond, Georgia;
+	font-size : 18px;
+	color : #d3d3d3;
+}
+#but1 {
+	border : #c19663 solid 3px;
+	background-color : transparent;
+	font-size : 18px;
+	color : #c19663;
+	padding : 22px 31px 21px 38px;
+	text-transform : uppercase;
+}
+.section1 {
+	background-image : none;
+	width : 1200px;
+	height : 602px;
+}
+.section2 {
+	background-image : url(img/content2.jpg);
+	width : 1200px;
+	height : 402px;
+	margin : 0 auto;
+}
+.section2 > p:first-child {
+	font-size : 21px;
+	float : left;
+	margin : 64px 0 0 130px;
+	color : #f5eae9;
+}
+.section2 > p:nth-child(2) {
+	float : left;
+	margin : 36px 900px 0 130px;
+	color : #f5eae9;
+}
+.section3 {
+	height : 400px;
+	width : 1200px;
+	margin : 0 auto;
+}
+.section3 h1 {
+	text-align : center;
+	font-size : 42px;
+	margin-top : 70px;
+}
+.left {
+	margin-top : 60px;
+	margin-left : 130px;
+	float : left;
+	width : 420px;
+}
+.left h3 {
+	margin-left : 12px;
+	font-style : normal;
+	font-size : 21px;
+}
+.left p {
+	clear : left;
+	font-size : 15px;
+}
+.right {
+	margin-top : 70px;
+	margin-right : 50px;
+	float : right;
+	clear : right;
+	text-align : left;
+	width : 540px;
+}
+.right h3 {
+	font-size : 21px;
+}
+.right p {
+	clear : left;
+	font-size : 15px;
+}
+.section4 {
+	height : 400px;
+	width : 1200px;
+	background-image : url(img/picjumbo.jpg);
+	margin : 0 auto;
+	background-size : cover;
+}
+.section4 p {
+	padding : 305px 0 76px 135px;
+	color : white;
+	font-size : 42px;
+}
+.section5 {
+	height : 400px;
+	width : 1200px;
+	background-image : url(img/Image7.jpg);
+	margin : 0 auto;
+	
+}
+footer {
+	background-color : #333333;
+	width : 1200px;
+	height : 120px;
+	margin : 0 auto;
+}
+footer img {
+	margin : 30px 0 0 132px;
+	/*float: left;*/
+	clear: left;
+}
+footer nav{
+	margin-right: 130px;
+}
+footer nav li {
+	float : right;
+	color : #dfdede;
+	padding: 0px 25px 0 0;
+	font-size: 20px;
+}
